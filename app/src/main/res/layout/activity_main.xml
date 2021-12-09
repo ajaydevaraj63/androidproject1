@@ -1,0 +1,45 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/my_background"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditText
+            android:drawableLeft="@drawable/usernamesrc"
+            android:hint="enter your user name"
+            android:layout_margin="10dp"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        android:textColor="@color/black"/>
+    <EditText
+        android:hint="enter your password"
+        android:drawableLeft="@drawable/password_src"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:layout_margin="5dp"
+            android:background="@drawable/my_bckd_rev">
+           </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+  android:background="@drawable/my_bckd_rev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="GO TO REGISTER"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
